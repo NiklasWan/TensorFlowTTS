@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:2.6.0-gpu
+FROM tensorflow/tensorflow:2.7.0-gpu
 RUN apt-get update
 RUN apt-get install -y zsh tmux wget git libsndfile1
 RUN pip install ipython && \
